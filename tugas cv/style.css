@@ -1,0 +1,136 @@
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================= BODY ================= */
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* ================= CONTAINER ================= */
+.container {
+    width: 800px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 30px;
+}
+
+/* ================= HEADER ================= */
+.header {
+    background-color: #5a7f7c;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: white;
+}
+
+/* ================= CONTENT ================= */
+.content {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+/* ================= LEFT COLUMN ================= */
+.left-column {
+    width: 35%;
+    padding-right: 20px;
+    border-right: 1px solid #dddddd;
+    color: #5a7f7c;
+    font-weight: 600;
+}
+
+/* ================= RIGHT COLUMN ================= */
+.right-column {
+    width: 65%;
+    padding-left: 20px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* ================= SECTION TITLE ================= */
+h2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #5a7f7c;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #cccccc;
+}
+
+/* ================= TEXT ================= */
+p,
+ul {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+/* ================= LINK ================= */
+a {
+    color: #5a7f7c;
+    text-decoration: underline;
+}
+
+/* ================= ICON ================= */
+.icon {
+    width: 14px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* ================= CONTACT ================= */
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+}
+
+.contact-item img {
+    width: 16px;
+    margin-right: 8px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #5a7f7c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #456663;
+}

@@ -20,10 +20,10 @@
 </div>
 
 <div class="detail-box">
-<h2>Features</h2>
+<h2>Fitur</h2>
 
 <ul>
-@foreach($project['features'] as $item)
+@foreach($project['fitur'] as $item)
 <li>{{ $item }}</li>
 @endforeach
 </ul>
@@ -32,7 +32,7 @@
 
 <div class="detail-box">
 
-<h2>What I Learned</h2>
+<h2>Apa yang saya pelajari dari project ini</h2>
 
 <p>{{ $project['learn'] }}</p>
 

@@ -24,28 +24,31 @@ public function projectDetail($slug)
             'title' => 'Library Management System',
             'image' => 'perpus.png',
             'tech'  => 'Java • MySQL • JDBC',
-            'desc'  => 'Sistem manajemen perpustakaan berbasis Java.',
-            'features' => [
-                'CRUD Data Buku',
-                'CRUD Anggota',
+            'desc'  => 'Sistem manajemen perpustakaan sederhana menggunakan bahasa pemrograman JAVA.',
+            'fitur' => [
+                'Fitur login',
+                'CRUD manajeman Buku',
                 'Peminjaman',
                 'Pengembalian',
-                'Search Buku'
+                'Search Buku',
+                'Lihat Riwayat'
             ],
             'learn' => 'Belajar OOP, database integration, clean architecture.'
         ],
         'jalan2kuy' => [
             'title' => 'Jalan2Kuy.id',
-            'image' => 'jalan2kuy.png',
-            'tech'  => 'Laravel',
-            'desc'  => 'Website wisata dan rekomendasi perjalanan dengan tampilan modern dan responsive.',
+            'image' => 'jalan2kuy.id.png',
+            'tech'  => 'Laravel • MySQL • PHP • CSS • Bootstrap',
+            'desc'  => 'Website rekomendasi wisata dan event di tiap destinasi wisata yang ada di Indonesia, dengan tampilan UI yang friendly dan responsif.',
             
-            'features' => [
-                'Landing Page Responsive',
-                'Informasi Destinasi',
-                'UI Modern',
-                'Navigasi Interaktif',
-                'Optimasi User Experience'
+            'fitur' => [
+                'Fitur Login',
+                'Search Destinasi',
+                'Lihat Destinasi',
+                'Lihat Event',
+                'Lihat galery',
+                'CRUD Destinasi',
+                'CRUD Event'
             ],
 
             'learn' => 'Belajar frontend development, UI design, responsive layout, dan teamwork project.'

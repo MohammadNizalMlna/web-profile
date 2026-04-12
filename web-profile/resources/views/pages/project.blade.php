@@ -28,7 +28,7 @@
 </div>
 
     <div class="project-card">
-    <img src="{{ asset('assets/jalan2kuy.png') }}">
+    <img src="{{ asset('assets/jalan2kuy.id.png') }}">
     <div class="project-content">
         <h3>Jalan2Kuy.id</h3>
         <p>
